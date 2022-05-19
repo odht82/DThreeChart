@@ -1,4 +1,4 @@
-# Fragrance-Shop.
+# D3-Chart.
 
 This project is for Form validation and Chart showing. 
 Visit the Website:(netlify host) [D3-Chart.](https://d-three-chart.netlify.app/).
