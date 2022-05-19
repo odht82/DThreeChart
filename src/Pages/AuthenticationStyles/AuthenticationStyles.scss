@@ -1,0 +1,73 @@
+@import "../../StyleVariables/Variables.scss";
+.container{
+    width: 100%;
+    height:100vh;
+    // padding: 16px;
+    background-color: $liteColor;
+    display: flex;
+    &__left{
+        width: 50%;
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $whiteColorD;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        margin: 16px 0px 16px 16px;
+    }
+    &__right{
+        width: 50%;
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        background-color: $whiteColorB;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        margin: 16px 16px 16px 0px;
+    }
+}
+.left{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    &__image{
+        margin: 52px;
+    }
+    &__heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 26px;
+
+        color: $blackColor;
+    }
+    &__description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 12px;
+        
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: $darkColor;
+    }
+}
+
+.right{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__body{
+        display: flex;    
+    }
+}
